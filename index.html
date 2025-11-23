@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phoenix Recovery – Live Scanner</title>
+  <meta charset="utf-8">
+  <style>
+    body { font-family: Arial; background: #000; color: #0f0; text-align: center; padding: 50px; }
+    h1 { font-size: 3em; }
+    input, button { padding: 15px; font-size: 1.5em; margin: 10px; }
+    #result { margin-top: 30px; font-size: 2em; }
+    .fire { color: orange; }
+  </style>
+</head>
+<body>
+  <h1 class="fire">Phoenix Recovery</h1>
+  <p>Insere um endereço Bitcoin para scan instantâneo</p>
+  <input type="text" id="addr" placeholder="1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa" size="50">
+  <button onclick="scan()">SCAN</button>
+  <div id="result"></div>
+
+  <script src="scanner.js"></script>
+</body>
+</html>
