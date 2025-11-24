@@ -3,7 +3,7 @@ White Paper v1.0 – 23 Novembro 2025
 
 ## 1. O Problema
 - 4,1 milhões de BTC perdidos por falhas técnicas 2009-2016
-- Nonce reuse, RNG fraco Android/Java, seeds mal gerados
+- RNG fraco Android/Java, seeds mal gerados
 - Valor actual ≈ 350 mil milhões USD
 - Whales controlam o resto → manipulação total
 - Leis bloqueiam recuperação legítima
